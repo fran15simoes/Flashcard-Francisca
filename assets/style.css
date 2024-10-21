@@ -11,9 +11,9 @@ body{
     background: url(img/bg-desktop.webp);
     font-family:"Bai Jamjuree" ;
 }
-
 #container{
     display: flex; /*transforma em elemento flexível*/
+    flex-wrap: wrap; /*jogar o 4 cartao para a linlha de baixo*/
 }
 
 .cartao{
